@@ -1,0 +1,23 @@
+/*
+Student Name: Marjan Jafari
+Student ID:301321020
+*/
+
+body {margin: 40px; px ; font-family:sans-serif; background-color:rgb(124, 228, 138)}
+
+h3{ color:rgb(26, 26, 33) ; background-color:rgb(9, 186, 234)}
+
+address {color:rgb(230, 18, 71); text-align: centre ; font: italic smal-caps 700 1pt/24pt}
+
+li{text-transform: capitalize; line-height:2.5 ; color: rgb(58, 143, 193);}
+
+ul{list-style-image:url(arrow.JPG);}
+ul li:first-of-type {text-transform: uppercase;}
+ul li:hover {background-color:bisque;}
+
+p:first-line{text-transform:uppercase;}
+p::first-letter{font-size:200%}
+
+blockquote {background-color: silver ; width: 800px; ; padding: 10px;}
+
+h3:first-of-type{text-transform: uppercase;}

@@ -1,0 +1,29 @@
+/*
+Student Name: Marjan Jafari
+Student ID:301321020
+*/
+body { font-size: Arial, Helvetica, sans-serif;
+    width: 1400px;
+    border: 3px solid maroon;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0 10px 20px 10px;
+
+}
+
+
+
+address {color:rgb(24, 23, 23); text-align: centre ; font: italic smal-caps 700 1pt/24pt}
+
+my_table{
+    margin-top:10px //moves your table 10pixels down
+    margin-left:10px //moves your table 10pixels right
+}
+
+
+p:first-line{text-transform:uppercase;}
+p::first-letter{font-size:200%}
+
+blockquote {background-color: silver ; width: 800px; ; padding: 10px;}
+
+h3:first-of-type{text-transform: uppercase;}

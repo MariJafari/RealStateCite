@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+  Student name: Marjan Jafari
+  Student ID: 301321020
+ -->
+       
+<title>Project</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+</style>
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <marquee><h1><i>Marjan Jafari Real State</i></h1></marquee>
+  </header>
+    <nav>
+	<ul>
+      
+      <li><a href="project.html">Homepage</a></li>
+      <li><a href="AvailableProperties.html">Available Properties</a></li>
+      <li id="page">Contact US</li>
+      <li><a href="sitemap.html">Site Map</a></li>
+      <li><a href="index.html">My Home</a></li>
+
+	 </ul>
+    </nav>
+  <main>
+    <body>
+        <h1>Contact Us</h1>
+        <form action="mailto:mjafari7@my.centennial.com" method="post" enctype="text/plain">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required><br><br>
+            
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required><br><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="property-type">Property Type:</label>
+            <select id="property-type" name="property-type">
+                <option value="condominium">condominium</option>
+                <option value="Detached">Detached</option>
+                <option value="SemiDetached">SemiDetached</option>
+                <option value="TownHouse">TownHouse</option>
+            </select><br><br>
+            
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <input type="number" id="bedrooms" name="bedrooms" min="0" required><br><br>
+            
+            <label for="bathrooms">Number of Bathrooms:</label>
+            <input type="number" id="bathrooms" name="bathrooms" min="0" required><br><br>
+            
+            <label for="price-range">Price Range:</label>
+            <input type="number" id="price-range" name="price-range" min="0" required><br><br>
+            
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+            <input type="clearform" value="Clear Form">
+         </form>
+    </body>
+    <footer>
+
+     <p>Contact Us: 118 Pemberton Ave, North York, Ontario  | Phone: (437) 286-1202 | Email: info@marjanrealestateagent.com</p>
+
+    </footer>
+ </div>
+</body>
+</html>
+
+
